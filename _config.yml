@@ -1,0 +1,21 @@
+title: Styledrobe
+description: AI wardrobe stylist that respects your privacy
+theme: jekyll-theme-minimal
+url: "https://berna-ozer.github.io"
+baseurl: "/styledrobe-docs"
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - privacy.md
+  - terms.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
